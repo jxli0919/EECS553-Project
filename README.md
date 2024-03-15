@@ -5,7 +5,7 @@ Project: Reproducibility Study of ”Learning Fast, Learning Slow”
 
 Reproduced from [Learning Fast, Learning Slow](https://github.com/NeurAI-Lab/CLS-ER), made some modifications. 
 
-To reproduce the author’s results, we manually verified the results claimed. We ran their given code on the corresponding datasets and verified that the test accuracies 
+We ran their given code on the corresponding datasets and verified that the test accuracies 
 were correct. We also searched for the optimal update rates and buffer size. We then constructed a sequential learning variation of the CIFAR‐100 dataset and compared
 the CLS‐ER model with the best baseline model.
 
