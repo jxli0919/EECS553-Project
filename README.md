@@ -12,15 +12,15 @@ the CLS‐ER model with the best baseline model.
 1.	To reproduce the results in the original paper run the following
 python main.py --dataset <dataset> --model <model> --buffer_size <buffer_size> --load_best_args
 Examples:
-python main.py --dataset seq-mnist --model clser --buffer_size 500 --load_best_args
+    python main.py --dataset seq-mnist --model clser --buffer_size 500 --load_best_args
 
-python main.py --dataset seq-mnist --model derpp --buffer_size 500 --load_best_args
+    python main.py --dataset seq-mnist --model derpp --buffer_size 500 --load_best_args
 
-python main.py --dataset seq-cifar10 --model clser --buffer_size 500 --load_best_args
+    python main.py --dataset seq-cifar10 --model clser --buffer_size 500 --load_best_args
 
-python main.py --dataset rot-mnist --model clser --buffer_size 500 --load_best_args
+    python main.py --dataset rot-mnist --model clser --buffer_size 500 --load_best_args
 
-python main.py --dataset mnist-360 --model clser --buffer_size 500 --load_best_args
+    python main.py --dataset mnist-360 --model clser --buffer_size 500 --load_best_args
 
 2.	To reproduce the additional results, 
 a.	For additional results 1 and 2, we changed the parameters of update rates and buffer size in the “best_args.py” in the “utils” folder
