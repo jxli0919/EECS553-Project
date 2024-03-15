@@ -1,4 +1,4 @@
-# EECS553-Project
+# EECS 553_Project
 Final project for EECS 553 Machine Learning, Fall 2022. 
 
 Project: Reproducibility Study of ”Learning Fast, Learning Slow”
